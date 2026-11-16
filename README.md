@@ -157,7 +157,7 @@ After realizing that the negative BARTHAG coefficient might be influenced by the
 
  
 
-LOGISTIC REGRESSION MODEL WITH THE VARIABLES NOT TIED TOGETHER  
+# LOGISTIC REGRESSION MODEL WITH THE VARIABLES NOT TIED TOGETHER  
 
  
 
