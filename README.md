@@ -122,20 +122,20 @@ To further investigate the unexpected relationship with BARTHAG and tournament a
 After realizing that the negative BARTHAG coefficient might be influenced by the other predictor variables, a second logistic regression model was created and 	made the exact same, just leaving out the BARTHAG variable. The largest changes occurred in ADJOE and ADJDE. ADJOE’s odds ratio decreased from 2.995 to 2.478, 	and ADJDE’s odd ratio increased from 0.369 to 0.445. Therefore, this proves that 	BARTHAG had a strong positive relationship with ADJOE and a strong negative relationship with the ADJDE variable.  
 
  
+ 
+ Feature  Coefficient    Absolute Coefficient Value   Odds Ratio 
 
-Feature  Coefficient    Absolute Coefficient Value       Odds Ratio 
+0   ADJOE     0.907573    0.907573                     2.478300 
 
-0   ADJOE     0.907573                    0.907573        2.478300 
+1   ADJDE    -0.810712    0.810712                     0.444542 
 
-1   ADJDE    -0.810712                    0.810712        0.444542 
+5    SEED    -0.379596    0.379596                     0.684138 
 
-5    SEED    -0.379596                    0.379596        0.684138 
+4     WAB     0.177804    0.177804                     1.194591 
 
-4     WAB     0.177804                    0.177804        1.194591 
+3   EFG_D     0.143024    0.143024                     1.153757 
 
-3   EFG_D     0.143024                    0.143024        1.153757 
-
-2   EFG_O    -0.040873                    0.040873        0.959951 
+2   EFG_O    -0.040873    0.040873                     0.959951 
 
  
 
