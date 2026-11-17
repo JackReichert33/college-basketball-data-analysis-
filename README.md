@@ -179,5 +179,27 @@ After realizing that the negative BARTHAG coefficient might be influenced by the
 
 This model identified WAB as having the strongest association with 	advancing beyond the Round of 64, followed by Seed, ADJOE, and ADJDE. Overall, these results suggest that overall team performance (WAB), tournament seeding, and offensive and defensive efficiency are each important individual variables when determining tournament advancement.  
 
- 
 
+
+# Bar chart that shows the Combined vs. Individual Logistic Regression Models 
+
+# Create the bar chart
+results.plot(kind="bar", figsize=(12, 6))
+
+# Add a reference line at an odds ratio of 1
+plt.axhline(y=1, linestyle="--", label="Odds Ratio = 1")
+
+plt.title("Odds Ratios: Combined vs. Individual Logistic Regression Models")
+plt.xlabel("Basketball Statistics")
+plt.ylabel("Odds Ratio")
+plt.xticks(rotation=0)
+plt.legend()
+plt.tight_layout()
+
+plt.show()
+
+# Save the chart as an image
+plt.savefig("logistic_regression_comparison.png",
+            dpi=300, bbox_inches="tight")
+
+plt.show()
