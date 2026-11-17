@@ -181,9 +181,9 @@ This model identified WAB as having the strongest association with 	advancing be
 
 
 
-# Bar chart that shows the Combined vs. Individual Logistic Regression Models 
+# A Bar chart that shows the Combined vs. Individual Logistic Regression Models 
 
-# Create the bar chart
+# Creating the bar chart
 results.plot(kind="bar", figsize=(12, 6))
 
 # Adding a reference line at an odds ratio of 1
