@@ -186,7 +186,7 @@ This model identified WAB as having the strongest association with 	advancing be
 # Create the bar chart
 results.plot(kind="bar", figsize=(12, 6))
 
-# Add a reference line at an odds ratio of 1
+# Adding a reference line at an odds ratio of 1
 plt.axhline(y=1, linestyle="--", label="Odds Ratio = 1")
 
 plt.title("Odds Ratios: Combined vs. Individual Logistic Regression Models")
@@ -198,8 +198,4 @@ plt.tight_layout()
 
 plt.show()
 
-# Save the chart as an image
-plt.savefig("logistic_regression_comparison.png",
-            dpi=300, bbox_inches="tight")
 
-plt.show()
